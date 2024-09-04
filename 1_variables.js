@@ -2,7 +2,7 @@
     -- let --
 
     1. can be re-assigned
-    2. block, local scoped variables
+    2. block, locally scoped variables
 */
 
 let num = 24;
@@ -19,8 +19,8 @@ console.log(anotherNum);
 /*
     -- const --
 
-    1. stored value cannot be re-assigned
-    2. block, local scoped variables
+    1. cannot be re-assigned
+    2. block, locally scoped variables
 */
 
 function callVarValue() {
@@ -33,8 +33,8 @@ console.log(num);
 /* 
     -- var --
 
-    1. stored value can be re-assigned.
-    2. can access globally, and outside of the block and function body.
+    1. Variable can be re-declared and re-assigned.
+    2. variables can be accessed globally. Variables cannot be accessed outside of the function body. Does not have a block scope
 */
 
 function callVarValue() {
